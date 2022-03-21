@@ -37,7 +37,7 @@ npm install
 yarn dev
 ```
 
-or 
+or
 
 ```bash
 npm run dev
