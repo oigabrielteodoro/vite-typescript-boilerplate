@@ -7,6 +7,9 @@
       ],
       "plugins": [
         "babel-plugin-styled-components",
+        ["@babel/plugin-transform-react-jsx", {
+          "runtime": "automatic"
+        }],
         "babel-plugin-transform-vite-meta-env",
         [
           "@babel/plugin-proposal-private-property-in-object",
