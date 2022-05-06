@@ -8,9 +8,9 @@ module.exports = {
   },
   collectCoverageFrom: [
     'src/**/*.ts(x)?',
-    '!src/App.tsx',
     '!src/main.tsx',
-    '!src/routes.ts',
+    '!src/setupTests.tsx',
+    '!src/**/*.stories.tsx',
   ],
   maxWorkers: '50%',
   setupFilesAfterEnv: ['<rootDir>/src/setupTests.ts'],
